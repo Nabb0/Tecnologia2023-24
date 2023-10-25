@@ -1,0 +1,21 @@
+Come creare un progetto in gitpod
+
+npm i -g @angular/cli
+
+Crea il progetto 
+ng new 
+
+directory del progetto 
+Cd riva
+
+Crea un componente
+
+ng generate component
+
+apre il termianl 
+control shift o 
+
+
+bash 
+ ps -a processi attivi 
+ sudo kill -9 nemero processo = uccide il processo 
