@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule} from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TipoComponent } from './tipo/tipo.component';
+
+import { PokemonTypeComponent } from './pokemon-type/pokemon-type.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TipoComponent
+   
+    PokemonTypeComponent
   ],
   imports: [
     BrowserModule,
