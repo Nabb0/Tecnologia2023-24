@@ -20,4 +20,12 @@ export class AppComponent {
   dosomething = (data : pokemonList) => {
     this.data = data;
   }
+
+  getLastPart(url: string)
+  {
+    console.log(url)
+    let vettparti = url.split("/");
+    console.log(vettparti[6])
+    return vettparti[6];
+  }
 }
