@@ -1,0 +1,8 @@
+<h1>Pokemon Types</h1>
+<ul>
+    <li *ngFor = "let tipo of data.results">
+        <a routerLink = "/pokemon/{{getLastPart(tipo.url)}}">{{tipo.name}}</a>
+        <hr>
+    </li>
+</ul>
+

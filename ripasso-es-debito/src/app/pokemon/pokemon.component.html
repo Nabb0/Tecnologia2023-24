@@ -1,0 +1,5 @@
+
+<li *ngFor = "let pokemon of pokemonList.pokemon"> <!--fa il for dentro pokemonList.pokemon-->
+    <a routerLink="/pokemon-details/{{getLastPart(pokemon.pokemon.url)}}">{{pokemon.pokemon.name}}</a>
+    <hr>
+</li>

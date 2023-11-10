@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ripassoEsDebito": {
+    "ripasso-es-debito": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ripassoEsDebito:build:production"
+              "browserTarget": "ripasso-es-debito:build:production"
             },
             "development": {
-              "browserTarget": "ripassoEsDebito:build:development"
+              "browserTarget": "ripasso-es-debito:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ripassoEsDebito:build"
+            "browserTarget": "ripasso-es-debito:build"
           }
         },
         "test": {
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "11a6ac48-bd7d-4d2a-8a3e-f037088be4a8"
+    "analytics": false
   }
 }

@@ -1,4 +1,4 @@
-export interface pokemonList {
+export interface PokemonType {
     count: number
     next: any
     previous: any
@@ -9,3 +9,4 @@ export interface pokemonList {
     name: string
     url: string
   }
+  

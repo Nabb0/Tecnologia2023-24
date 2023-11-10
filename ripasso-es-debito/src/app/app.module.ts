@@ -1,16 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {HttpClientModule} from '@angular/common/http'
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-import { PokemonTypeComponent } from './pokemon-type/pokemon-type.component';
+import { HttpClientModule } from '@angular/common/http';
+import { TipiPokemonComponent } from './tipi-pokemon/tipi-pokemon.component';
+import { PokemonComponent } from './pokemon/pokemon.component';
+import { PokemonDetailsComponent } from './pokemon-details/pokemon-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-   
-    PokemonTypeComponent
+    TipiPokemonComponent,
+    PokemonComponent,
+    PokemonDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -21,3 +24,4 @@ import { PokemonTypeComponent } from './pokemon-type/pokemon-type.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
