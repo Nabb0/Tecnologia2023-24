@@ -4,11 +4,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DriversComponent } from './drivers/drivers.component';
+import { InfoDriverComponent } from './info-driver/info-driver.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DriversComponent
+    DriversComponent,
+    InfoDriverComponent
   ],
   imports: [
     BrowserModule,

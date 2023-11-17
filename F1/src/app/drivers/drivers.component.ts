@@ -16,11 +16,14 @@ export class DriversComponent {
   url!:any;
  
 constructor(private http : HttpClient){
-  this.obs = this.http.get<Drivers>("https://ergast.com/api/f1/drivers.json")
+  this.obs = this.http.get<Drivers>("https://ergast.com/api/f1/2023/drivers.json")
   this.obs.subscribe(this.doSomething)
 }
 doSomething = (data : Drivers) => {
   this.data = data
   console.log(data)
 }
+
+
+
 }

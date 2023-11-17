@@ -1,2 +1,10 @@
 .....
 Si basera sui piloti per poi passare alle scuderie 
+.............
+
+post selezione del pilota by id = info Pilota e post info scuderia 
+
+................
+
+
+devo prendere l id salvarlo epoi aggiungerlo alla rotta succesiva 
