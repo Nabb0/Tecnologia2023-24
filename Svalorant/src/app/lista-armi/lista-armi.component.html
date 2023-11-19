@@ -1,0 +1,8 @@
+
+<ul>
+    <li *ngFor = "let arma of data.data">
+      
+        <h4><a routerLink = "/armi/{{getLastPart(arma.uuid)}}">{{arma.displayName}}</a></h4>
+        <hr>
+    </li>
+</ul>

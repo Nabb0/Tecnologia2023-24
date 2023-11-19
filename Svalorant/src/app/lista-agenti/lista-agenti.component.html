@@ -1,0 +1,8 @@
+
+<ul>
+    <li *ngFor = "let agente of data.data">
+       
+        <h4><a routerLink = "/agenti/{{getLastPart(agente.uuid)}}">{{agente.displayName}}</a></h4>
+        <hr>
+    </li>
+</ul>
