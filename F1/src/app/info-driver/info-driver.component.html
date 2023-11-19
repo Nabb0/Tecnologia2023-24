@@ -1,12 +1,12 @@
 <h1>InfoDrivers</h1>
 <ul>
     <li *ngFor = "let pilota of data.MRData.DriverTable.Drivers">
-     <a>{{pilota.permanentNumber}}</a> <a>/</a>
-     <a>{{pilota.givenName}}</a> <br>
-     <a>{{pilota.familyName}}</a> <br>
-     <a>{{pilota.dateOfBirth}}</a> <br>
-     <a>{{pilota.nationality}}</a> <br>
-     <a>{{pilota.url}}</a> <br>
-    <hr>
+     <p>Numero :{{pilota.permanentNumber}}<br>
+     Nome: {{pilota.givenName}}<br>
+     Cognome:{{pilota.familyName}}<br>
+     Data di nascita:{{pilota.dateOfBirth}}<br>
+     Nazioanlita: {{pilota.nationality}}<br>
+     Wikipedia :{{pilota.url}}</p> 
+     <hr>
 </li>
-</ul>
+</ul> 

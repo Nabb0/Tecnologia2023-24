@@ -11,9 +11,12 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./drivers.component.css']
 })
 export class DriversComponent {
+
   obs: Observable <Drivers>
   data!: Drivers;
   url!:any;
+
+  
  
 constructor(private http : HttpClient){
   this.obs = this.http.get<Drivers>("https://ergast.com/api/f1/2023/drivers.json")
@@ -23,7 +26,4 @@ doSomething = (data : Drivers) => {
   this.data = data
   console.log(data)
 }
-
-
-
 }

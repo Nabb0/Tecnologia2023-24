@@ -5,6 +5,7 @@ import { InfoDriverComponent } from './info-driver/info-driver.component';
 
 const routes: Routes = [
   {path: "",component:DriversComponent}, 
+  {path: "driver/:id",component:InfoDriverComponent},
   
 
 
