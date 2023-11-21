@@ -14,3 +14,7 @@ ng generate component
 
 Sesto passo:
 ng serve --disable-host-check
+
+
+
+dopo aver creato la home importiamo http
