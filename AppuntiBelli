@@ -1,0 +1,16 @@
+npm i -g @angular/cli@16
+
+Come creare un progetto in gitpod
+
+Crea il progetto 
+ng new 
+
+directory del progetto 
+cd 
+
+Crea un componente
+
+ng generate component
+
+Sesto passo:
+ng serve --disable-host-check
