@@ -18,3 +18,10 @@ ng serve --disable-host-check
 
 
 dopo aver creato la home importiamo http
+
+imports
+HttpClientModule
+
+import { HttpClientModule } from '@angular/common/http';
+
+dopo aver importato ci occupiamo di fare la prima richiesta in questo caso di marcas di carros
