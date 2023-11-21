@@ -22,12 +22,6 @@ export class ListaCarrosComponent {
     this.data = data
     console.log(data)
   }
-
-  getLastPart(data: string){
-    let url = data.split("/").slice(-3)
-    console.log(url[0])
-    return url[0]
-  }
 }
 
 

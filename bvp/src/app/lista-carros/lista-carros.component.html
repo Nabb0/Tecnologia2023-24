@@ -2,8 +2,8 @@
 
 <ul>
     <li *ngFor = "let carros of data">
-       <p>{{carros.nome}}</p>
-        <h4><a routerLink = "/carros/marcas/{{getLastPart(carros.codigo)}}" ></a></h4>
+       
+        <h4><a routerLink = "/carros/marcas/{{carros.codigo}}" >{{carros.nome}}</a></h4>
         <hr>
     </li>
 </ul> 
