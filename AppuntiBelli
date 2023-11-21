@@ -25,3 +25,7 @@ HttpClientModule
 import { HttpClientModule } from '@angular/common/http';
 
 dopo aver importato ci occupiamo di fare la prima richiesta in questo caso di marcas di carros
+
+per creare il corretto modello utilizzare https://transform.tools/json-to-typescript 
+
+adeso la richiesta 
